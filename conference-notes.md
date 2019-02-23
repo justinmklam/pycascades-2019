@@ -1,5 +1,12 @@
 # 01 - Turning the Wat into Why
-By 
+By Katie McLaughlin
+
+- Subtle quirks/wats of python
+- using is to compare integers (try 256 and 257, get different answers)
+- just because a language has weird stuff, it doesn't make it bad. Just need to understand the design of the language to understand why the quirks exist (ie. In JavaScript, the + acts as addition and string concatenation)
+- no language is better
+- when come across a wat, take the time to understand why. This will give you a deeper and more complex understanding of the language
+- https://github.com/glasnt/wat-references/blob/master/README.md
 
 ## Takeaway
 
@@ -72,7 +79,7 @@ Unrelated:
 
 + Check out BSD.pw, Idea is to help those using Python on BSD get up and running quickly and to share ideas with one another
 
-# 07 - AI
+# 07 - Guide to Your Own AI Application in 3 Easy Steps
 By Norah Klintberg Sakal
 
 + Doesn't have to be a complex idea
