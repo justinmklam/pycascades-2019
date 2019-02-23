@@ -15,7 +15,7 @@ By Katie McLaughlin
 # 02 - The Immutable
 By Al Sweigart
 
-Slides available on biy.ly/amazingtuple
+Slides available on bit.ly/amazingtuple
 
 + Check out data structure visualization from pythontutor.com
 + Check out data model page in official python docs
@@ -32,16 +32,15 @@ Slides available on biy.ly/amazingtuple
 By Paul Watts
 
 + Pytest fixtures help reuse test setup logic
-+ Look into ways to test API calls
++ TODO: Look into ways to test API calls
 + Tests should be formatted in arrange, act, and assert blocks. Makes tests easier to read and write
-+ Unrelated: Look into type hints for function declarations. Colon in argument input?
 + With fixtures, arrange is just done in the function input
 + However, not all setup can be fixtures. If too complex or not reused
 + Mocks and fixtures work well together
-+ Look into pytest.mark.parametrize
++ TODO: Look into pytest.mark.parametrize
 
 Property based testing
-+ Check out hypothesis.works (it's the go to testing framework/library for this type of testing)
++ TODO: Check out hypothesis.works (it's the go to testing framework/library for this type of testing)
 + You make statements based on how the code should work
 + Pytest is drop in replacement for Django
 + Not all tests fit within property based test mode (the other type is called example based test)
@@ -49,7 +48,7 @@ Property based testing
 Next Steps
 + Hillelwayne beyond unit tests (talk)
 
-Unrelated:
+Unrelated TODOs:
 + Look into type hints for function declarations. Colon in argument input?
 + How to do tests for embedded?
 + Pip module for command line utility? ie. creating an application, not a library. Might be able to better package the scripts
@@ -79,8 +78,7 @@ Unrelated:
 
 + Check out BSD.pw, Idea is to help those using Python on BSD get up and running quickly and to share ideas with one another
 
-# 07 - Guide to Your Own AI Application in 3 Easy Steps
-By Norah Klintberg Sakal
+# 07 - Norah Klintberg Sakal: Guide to Your Own AI Application in 3 Easy Steps
 
 + Doesn't have to be a complex idea
 + Idea > Data > Train
@@ -93,3 +91,22 @@ By Norah Klintberg Sakal
 ## Takeaway 
 
 + Getting started in machine learning is easy with Keras and tensorflow 
+
+# 08 - Ania Kapuścińska: Lint your code responsibly!
+
+- Linters can help find simple bugs, as well as style formatting
+- TODO: Check out pycodestyle, pyflakes
+- Two linters are YAPF by google and Black
+- pylint is powerful and configurable. The most comprehensive, but can take a while to run
+- Linters help you avoid doing stupid things in Python (since Python itself sometimes lets you do stupid things)
+- pyflake will never complain about style, and it wil try very hard to never emit false positives
+- mypy is a static type checker. Good if you use type annotations (helps from them becoming outdated as code changes)
+- More tools at github.com/vintasoftware/python-linters-and-code-analysis
+- Can create custom plugins for pylint
+- Can add git pre-commit hook to lint only modified files (to reduce development slowdowns)
+- TODO: See how linters can help keep docstrings up to date (ie. when arguments inevitably change)
+- Config pylint using pylintrc file. Change config instead of overusing inline ignores!
+
+**Takeaway**: Linters are good, if they're configured to your workflow. They should prevent distraction, not cause it. 
+
+# 09 - Ben Berry: Who to blame for all your problems
