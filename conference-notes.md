@@ -1,5 +1,5 @@
-# 01 - Turning the Wat into Why
-By Katie McLaughlin
+# Day 1 - Saturday, Feb 23, 2019
+## 01 - Katie McLaughlin: Turning 'wat' into 'why'
 
 - Subtle quirks/wats of python
 - using is to compare integers (try 256 and 257, get different answers)
@@ -8,12 +8,9 @@ By Katie McLaughlin
 - when come across a wat, take the time to understand why. This will give you a deeper and more complex understanding of the language
 - https://github.com/glasnt/wat-references/blob/master/README.md
 
-## Takeaway
+**Takeaway:** No language is better than another; each has its own quirks. Taking the time to understand why the quirks exist will help deepen your understanding of the language. 
 
-+ No language is better than another; each has its own quirks. Taking the time to understand why the quirks exist will help deepen your understanding of the language. 
-
-# 02 - The Immutable
-By Al Sweigart
+## 02 - Al Sweigart: The Amazing Mutable, Immutable Tuple
 
 Slides available on bit.ly/amazingtuple
 
@@ -24,12 +21,9 @@ Slides available on bit.ly/amazingtuple
 + double underscore method === 'dunder' method
 + __eq__() method is pretty cool. Useful for data objects
 
-## Takeaway
+**Takeaway:** Don't get too caught up in definitions of mutability?
 
-+ Don't get too caught up in definitions of mutability?
-
-# 05 - Fluent Testing Using Fixtures and Properties
-By Paul Watts
+## 05 - Paul Watts: Given this, assert that: fluent testing using fixtures and properties
 
 + Pytest fixtures help reuse test setup logic
 + TODO: Look into ways to test API calls
@@ -54,18 +48,15 @@ Unrelated TODOs:
 + Pip module for command line utility? ie. creating an application, not a library. Might be able to better package the scripts
 + String prepended with an f? ie. f'some string {widget.pk}'
 
-## Takeaway
+**Takeaway:** Fixtures in pytest make creating tests easier and more organized. Hypothesis is a good additional tool for property-based testing
 
-+ Fixtures in pytest make creating tests easier and more organized.
-+ Hypothesis is a good additional tool for property-based testing
+## 06 - Lightning Talks
 
-# 06 - Lightning Talks
-
-## Michael Gatt
+### Michael Gatt
 
 + For interviews, ask "how does organization deal with failures". This will give a good indication of the company's operations and culture.
 
-## To Comment or Not to Comment - Veronica Hanus
+### To Comment or Not to Comment - Veronica Hanus
 
 + Always use docstrings
 + Too many comments is bad (?)
@@ -74,11 +65,11 @@ Unrelated TODOs:
 + TODO: Read up on best practices for comments
 + Check out the survey at bit.ly/comment-use
 
-## PyBUG: Python BSD Users Group - Roller Angel
+### PyBUG: Python BSD Users Group - Roller Angel
 
 + Check out BSD.pw, Idea is to help those using Python on BSD get up and running quickly and to share ideas with one another
 
-# 07 - Norah Klintberg Sakal: Guide to Your Own AI Application in 3 Easy Steps
+## 07 - Norah Klintberg Sakal: Guide to Your Own AI Application in 3 Easy Steps
 
 + Doesn't have to be a complex idea
 + Idea > Data > Train
@@ -88,11 +79,9 @@ Unrelated TODOs:
 + Code is only ~15 lines. Easy peasy
 + Github: https://github.com/norahsakal/pycascades-2019-shades
 
-## Takeaway 
+**Takeaway:** Getting started in machine learning is easy with Keras and tensorflow 
 
-+ Getting started in machine learning is easy with Keras and tensorflow 
-
-# 08 - Ania Kapuścińska: Lint your code responsibly!
+## 08 - Ania Kapuścińska: Lint your code responsibly!
 
 - Linters can help find simple bugs, as well as style formatting
 - TODO: Check out pycodestyle, pyflakes
@@ -107,6 +96,6 @@ Unrelated TODOs:
 - TODO: See how linters can help keep docstrings up to date (ie. when arguments inevitably change)
 - Config pylint using pylintrc file. Change config instead of overusing inline ignores!
 
-**Takeaway**: Linters are good, if they're configured to your workflow. They should prevent distraction, not cause it. 
+**Takeaway:** Linters are good, if they're configured to your workflow. They should prevent distraction, not cause it. 
 
-# 09 - Ben Berry: Who to blame for all your problems
+## 09 - Ben Berry: Who to blame for all your problems
