@@ -174,3 +174,7 @@ http://slides.bengerman.com
 
 ## 11 - Hayley Denbraver: Recursion, Fractals, and the Python Turtle Module
 
+- Recursion is not just a trick for whiteboard interviews
+	- Aside: Recursion is useful for tree-like structures (ie. recursive directory search)
+
+**Takewaway:** Recursion doesn't need to be a headache. (Presentation was meh.)
