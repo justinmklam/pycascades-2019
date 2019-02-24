@@ -98,4 +98,24 @@ Unrelated TODOs:
 
 **Takeaway:** Linters are good, if they're configured to your workflow. They should prevent distraction, not cause it. 
 
-## 09 - Ben Berry: Who to blame for all your problems
+## 09 - Maria McKinley: Hunting the bugs
+
+http://codedragon.github.io/bughunting
+
+- A programmer's main work is not to write software, but to fix bugs that arise from software
+	- Aside: This is why it's important to write readable, clean, easy to follow code (with thoughtful comments) since it makes debugging much easier!
+- Check on your logs!! To make sure they're logging the right things and that the logs are in the right places
+- First thing when finding a bug is to write an integration test that fails (after you can recreate)
+	- See http://obeythetestinggoat.com
+	- The reason we do this is to make sure the bug is recreatable. Sometimes you will write a test that you think recreates it, but it actually fails
+- Check out http://pythontutor.com to see how a stack changes as code is executed
+- Start at the bottom of the stack trace
+- TODO: Look up "The Secret History of Women in Coding"
+- PDB >> print() for debugging
+	- Can be slow (takes a few times to find out what you actually need to print)
+	- PDB in the command line is good (or just use built in debugger in VS Code)
+- Always suspect your own code first!! Statistically speaking, it's usually YOU
+- Write more tests to try and recreate bug
+- Protip: Include python3 in search term to reduce answers popping up that solve python 2.7 problems
+- Take breaks! It will help
+- Write down EVERYTHING. Helps with keeping track of what you've tried/learned
