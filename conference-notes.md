@@ -6,7 +6,30 @@
 - just because a language has weird stuff, it doesn't make it bad. Just need to understand the design of the language to understand why the quirks exist (ie. In JavaScript, the + acts as addition and string concatenation)
 - no language is better
 - when come across a wat, take the time to understand why. This will give you a deeper and more complex understanding of the language
-- https://github.com/glasnt/wat-references/blob/master/README.md
+
+"Weird" behaviour in Python:
+
+```
+>>> a = 256
+>>> b = 256
+>>> a is b
+True
+```
+
+```
+>>> a = 257
+>>> b = 257
+>>> a is b
+False
+```
+
+```
+>>> a = 257; b = 257
+>>> a is b
+True
+```
+
+- See more at https://github.com/glasnt/wat-references/blob/master/README.md
 
 **Takeaway:** No language is better than another; each has its own quirks. Taking the time to understand why the quirks exist will help deepen your understanding of the language. 
 
