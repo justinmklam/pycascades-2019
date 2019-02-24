@@ -119,3 +119,32 @@ http://codedragon.github.io/bughunting
 - Protip: Include python3 in search term to reduce answers popping up that solve python 2.7 problems
 - Take breaks! It will help
 - Write down EVERYTHING. Helps with keeping track of what you've tried/learned
+
+## 10 - Ben Berry: Who to blame for all your problems
+
+http://slides.bengerman.com
+
+- Postmortem:
+	- Docuemnt containing details about an incident
+	- Meeting held to create such a document
+- Postmortems held to understand how complex systems failed (usually in complex ways)
+- IMPORTANT: Blameless = assume every person made the correct decision at every point along the way, given the info that was available to them at the time
+	- Doesn't put the blame on human error
+	- Spreads knowledge and insight, apply knowledge gained from incidents
+- Blameful:
+	- Revoke access
+	- Require approvals
+	- Fire them
+- Should approach postmortems blamelessly
+- Primary goal is to encourage:
+	- Honesty, transparency
+	- Failure is an outcome, not a behaviour
+- ie. if Joe pulled the lever, shouldn't blame Joe for pulling the lever. But ask why he pulled the lever? What information led him to believe that pulling the lever was the right decision?
+- Anonynimity != blameless
+- TODO: Do we include action items/recommendations with our post mortems?
+	- Right now the post mortems seem to get lost, but at least they're written down. Maybe have a mechanism to also review them occasionally? Or part of starting a project is to find/read post mortems of similar projects?
+- The primary goal of a postmortem is that learning is primary - action items are ancillary
+
+**Takewaway:** Implement blameless postmortems for better learning from failure and healthier culture
+
+## 11 - Hayley Denbraver: Recursion, Fractals, and the Python Turtle Module
