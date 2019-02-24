@@ -29,9 +29,41 @@ http://bit.ly/pyc_leds
 
 ## 02 - Dustin Ingram: Data Protection for Developers: Past, Present, and Future
 
+- TODO: Does Canada have a data protection act? (EU does, but US doesn't...)
+- EU GDPR Compliance is good (google also got hit with a GDPR violation recently since customers in EU)
+- California Consumer Protection Act (2020)
+
+**Takeaway:** Well presented. Be cognizant of how your data is being protected/used.
+
 ## 03 - Omayeli Arenyeka: Building a Gendered Dictionary
 
+Check out the project at https://genderedproject.org/
+
+- Gender bias in google translate
+	- ie. when converting from Turkish to English, Google has to decide which pronoun to use (ie. "he is an accountant; she is a teacher; he is an engineer; she is a nurse")
+- Wordnik: largest online dictionary (by word count)
+- Aside: Presentation should really be catered to audience's average background knowledge (ie. assume most attendees at a python conference are fluent in Python, so don't need to explain regex)
+- TODO: Check out `gensim` library (a robust open-source vector space modeling and topic modeling toolkit)
+
+**Takeaway:** Be cognizant of biases in gendered words and algorithms. Cool project.
+
 ## 04 - Andy Fundinger: A Taxonomy of Decorators: A-E
+
+http://github.com/bloomberg/decorator-taxonomy
+
+- Normally write decorators as closures; could also write as classes, but there's no benefit to this
+
+- Argument decorators (ie. `@click.option`, `@flask.templated`)
+- Return value decorators (ie. using `@expose('json')`)
+- Binding decorators (ie. `@staticmethod`, `@property`, `@retry`,  etc.)
+- Descriptive decorators (ie. `@pytest.mark`, `@app.route()`)
+- Execution decorators (ie. `@numba.jit`, `@cython.locals`)
+	- Very limited use case since changing the source code... infinite problems can come out of this!!!
+	- Use cases: bytecode/ast manipulation (but should still be avoided!!)
+- Wrapping decorators (ie. `@profilehooks.timecall`)
+	- Does very little, so also limited use
+
+**Takeaway:** Decorators have many types and uses cases. It's worth understand how to use them since it's a unique/powerful feature in Python.
 
 ## 05 - Chirag Shah: Understanding Multithreading
 
