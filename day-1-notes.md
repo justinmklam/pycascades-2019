@@ -2,10 +2,10 @@
 ## 01 - Katie McLaughlin: Turning 'wat' into 'why'
 
 - Subtle quirks/wats of python
-- using is to compare integers (try 256 and 257, get different answers)
-- just because a language has weird stuff, it doesn't make it bad. Just need to understand the design of the language to understand why the quirks exist (ie. In JavaScript, the + acts as addition and string concatenation)
-- no language is better
-- when come across a wat, take the time to understand why. This will give you a deeper and more complex understanding of the language
+- Using is to compare integers (try 256 and 257, get different answers)
+- Just because a language has weird stuff, it doesn't make it bad. Just need to understand the design of the language to understand why the quirks exist (ie. In JavaScript, the + acts as addition and string concatenation)
+- No language is better
+- When come across a wat, take the time to understand why. This will give you a deeper and more complex understanding of the language
 
 "Weird" behaviour in Python:
 
@@ -30,6 +30,7 @@ True
 ```
 
 - See more at https://github.com/glasnt/wat-references/blob/master/README.md
+- This talk is in reference to https://www.destroyallsoftware.com/talks/wat
 
 **Takeaway:** No language is better than another; each has its own quirks. Taking the time to understand why the quirks exist will help deepen your understanding of the language. 
 
@@ -39,10 +40,10 @@ Slides available on bit.ly/amazingtuple
 
 + Check out data structure visualization from pythontutor.com
 + Check out data model page in official python docs
-+ Can use id() to check if variables are referring to the same object (ie. when "copying" lists)
-+ str() and repr() can be used to see an object's value. But doesn't work with classes
-+ double underscore method === 'dunder' method
-+ __eq__() method is pretty cool. Useful for data objects
++ Can use `id()` to check if variables are referring to the same object (ie. when "copying" lists)
++ `str()` and `repr()` can be used to see an object's value. But doesn't work with classes
++ double underscore method `===` 'dunder' method
++ `__eq__()` method is pretty cool. Useful for data objects
 
 **Takeaway:** Don't get too caught up in definitions of mutability?
 
@@ -54,22 +55,22 @@ Slides available on bit.ly/amazingtuple
 + With fixtures, arrange is just done in the function input
 + However, not all setup can be fixtures. If too complex or not reused
 + Mocks and fixtures work well together
-+ TODO: Look into pytest.mark.parametrize
++ TODO: Look into `pytest.mark.parametrize`
 
 Property based testing
-+ TODO: Check out hypothesis.works (it's the go to testing framework/library for this type of testing)
++ TODO: Check out `hypothesis.works` (it's the go to testing framework/library for this type of testing)
 + You make statements based on how the code should work
 + Pytest is drop in replacement for Django
 + Not all tests fit within property based test mode (the other type is called example based test)
 
 Next Steps
-+ Hillelwayne beyond unit tests (talk)
++ See talk titled [Beyond Unit Tests](https://www.hillelwayne.com/talks/beyond-unit-tests/) by Hillel Wayne
 
 Unrelated TODOs:
 + Look into type hints for function declarations. Colon in argument input?
 + How to do tests for embedded?
 + Pip module for command line utility? ie. creating an application, not a library. Might be able to better package the scripts
-+ String prepended with an f? ie. f'some string {widget.pk}'
++ String prepended with an f? ie. `f'some string {widget.pk}'`
 
 **Takeaway:** Fixtures in pytest make creating tests easier and more organized. Hypothesis is a good additional tool for property-based testing
 
@@ -83,10 +84,10 @@ Unrelated TODOs:
 
 + Always use docstrings
 + Too many comments is bad (?)
-+ Code tells how; comments tell how
++ Code tells how; comments tell why
 + The way you learn is an antipattern (apparently this is an adage. What does this mean??)
 + TODO: Read up on best practices for comments
-+ Check out the survey at bit.ly/comment-use
++ Check out the survey at http://bit.ly/comment-use
 
 ### PyBUG: Python BSD Users Group - Roller Angel
 
@@ -150,10 +151,10 @@ http://codedragon.github.io/bughunting
 http://slides.bengerman.com
 
 - Postmortem:
-	- Docuemnt containing details about an incident
+	- Document containing details about an incident
 	- Meeting held to create such a document
 - Postmortems held to understand how complex systems failed (usually in complex ways)
-- IMPORTANT: Blameless = assume every person made the correct decision at every point along the way, given the info that was available to them at the time
+- **IMPORTANT: Blameless = assume every person made the correct decision at every point along the way, given the info that was available to them at the time**
 	- Doesn't put the blame on human error
 	- Spreads knowledge and insight, apply knowledge gained from incidents
 - Blameful:
