@@ -143,6 +143,8 @@ http://codedragon.github.io/bughunting
 - Take breaks! It will help
 - Write down EVERYTHING. Helps with keeping track of what you've tried/learned
 
+**Takeaway:** Stack trace is your friend, using print statements only gets you so far, take breaks.
+
 ## 10 - Ben Berry: Who to blame for all your problems
 
 http://slides.bengerman.com
@@ -171,3 +173,4 @@ http://slides.bengerman.com
 **Takewaway:** Implement blameless postmortems for better learning from failure and healthier culture
 
 ## 11 - Hayley Denbraver: Recursion, Fractals, and the Python Turtle Module
+
