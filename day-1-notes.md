@@ -134,7 +134,7 @@ http://codedragon.github.io/bughunting
 	- The reason we do this is to make sure the bug is recreatable. Sometimes you will write a test that you think recreates it, but it actually fails
 - Check out http://pythontutor.com to see how a stack changes as code is executed
 - Start at the bottom of the stack trace
-- TODO: Look up "The Secret History of Women in Coding"
+- TODO: Read the NY Times article [The Secret History of Women in Coding](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html)
 - PDB >> print() for debugging
 	- Can be slow (takes a few times to find out what you actually need to print)
 	- PDB in the command line is good (or just use built in debugger in VS Code)
@@ -144,7 +144,7 @@ http://codedragon.github.io/bughunting
 - Take breaks! It will help
 - Write down EVERYTHING. Helps with keeping track of what you've tried/learned
 
-**Takeaway:** Stack trace is your friend, using print statements only gets you so far, take breaks.
+**Takeaway:** Stack trace is your friend. Using print statements only gets you so far. Take breaks. Write down everything.
 
 ## 10 - Ben Berry: Who to blame for all your problems
 
