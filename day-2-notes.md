@@ -67,3 +67,23 @@ http://github.com/bloomberg/decorator-taxonomy
 
 ## 05 - Chirag Shah: Understanding Multithreading
 
+http://bit.ly/cpython_pycascades
+
+- Multithreading != multiprocessing != multitasking
+- Parallelism != concurrency
+- Processes can be bound by I/O or CPU
+- Can have preemptive or cooperative multithreading
+- Python interpreter is a virtual machine and has no thread management
+- Need to understand global interpreter lock (GIL) to properly handle multiple threads in python. Othewise threads won't perform as expected (ie. may actually be slower)
+	- Easily deals with race conditions and deadlocks
+	- TODO: How does GIL handle thread safety?
+- Aside: `typedef struct{}` in Python?? Is this how objects are defined in Python? (maybe it's only part of cython)
+- Threads hold the GIL while running
+- TODO: Preemptive multitasking using ticks? 
+- Except apparently there are many issues with GIL, so maybe look for alternatives? (Gilectomy 2017, Larry Hastings)
+- Alternatives to Cython: PyPy with STM, IronPython, and Jython
+- "GIL is a feature, not a bug." Should aim to improve it instead of remove it!
+- His personal advice: Do More, Progress Fast
+- TODO: Find talk Nina Zakharenko - Memory Management
+
+**Takeways:** Multithreading is complicated? Beware of GIL?
