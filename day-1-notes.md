@@ -50,15 +50,15 @@ Slides available on bit.ly/amazingtuple
 ## 05 - Paul Watts: Given this, assert that: fluent testing using fixtures and properties
 
 + Pytest fixtures help reuse test setup logic
-+ TODO: Look into ways to test API calls
++ `TODO`: Look into ways to test API calls
 + Tests should be formatted in arrange, act, and assert blocks. Makes tests easier to read and write
 + With fixtures, arrange is just done in the function input
 + However, not all setup can be fixtures. If too complex or not reused
 + Mocks and fixtures work well together
-+ TODO: Look into `pytest.mark.parametrize`
++ `TODO`: Look into `pytest.mark.parametrize`
 
 Property based testing
-+ TODO: Check out `hypothesis.works` (it's the go to testing framework/library for this type of testing)
++ `TODO`: Check out `hypothesis.works` (it's the go to testing framework/library for this type of testing)
 + You make statements based on how the code should work
 + Pytest is drop in replacement for Django
 + Not all tests fit within property based test mode (the other type is called example based test)
@@ -66,7 +66,7 @@ Property based testing
 Next Steps
 + See talk titled [Beyond Unit Tests](https://www.hillelwayne.com/talks/beyond-unit-tests/) by Hillel Wayne
 
-Unrelated TODOs:
+Unrelated `TODO`s:
 + Look into type hints for function declarations. Colon in argument input?
 + How to do tests for embedded?
 + Pip module for command line utility? ie. creating an application, not a library. Might be able to better package the scripts
@@ -86,7 +86,7 @@ Unrelated TODOs:
 + Too many comments is bad (?)
 + Code tells how; comments tell why
 + The way you learn is an antipattern (apparently this is an adage. What does this mean??)
-+ TODO: Read up on best practices for comments
++ `TODO`: Read up on best practices for comments
 + Check out the survey at http://bit.ly/comment-use
 
 ### PyBUG: Python BSD Users Group - Roller Angel
@@ -108,7 +108,7 @@ Unrelated TODOs:
 ## 08 - Ania Kapuścińska: Lint your code responsibly!
 
 - Linters can help find simple bugs, as well as style formatting
-- TODO: Check out pycodestyle, pyflakes
+- `TODO`: Check out pycodestyle, pyflakes
 - Two linters are YAPF by google and Black
 - pylint is powerful and configurable. The most comprehensive, but can take a while to run
 - Linters help you avoid doing stupid things in Python (since Python itself sometimes lets you do stupid things)
@@ -117,7 +117,7 @@ Unrelated TODOs:
 - More tools at github.com/vintasoftware/python-linters-and-code-analysis
 - Can create custom plugins for pylint
 - Can add git pre-commit hook to lint only modified files (to reduce development slowdowns)
-- TODO: See how linters can help keep docstrings up to date (ie. when arguments inevitably change)
+- `TODO`: See how linters can help keep docstrings up to date (ie. when arguments inevitably change)
 - Config pylint using pylintrc file. Change config instead of overusing inline ignores!
 
 **Takeaway:** Linters are good, if they're configured to your workflow. They should prevent distraction, not cause it. 
@@ -134,7 +134,7 @@ http://codedragon.github.io/bughunting
 	- The reason we do this is to make sure the bug is recreatable. Sometimes you will write a test that you think recreates it, but it actually fails
 - Check out http://pythontutor.com to see how a stack changes as code is executed
 - Start at the bottom of the stack trace
-- TODO: Read the NY Times article [The Secret History of Women in Coding](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html)
+- `TODO`: Read the NY Times article [The Secret History of Women in Coding](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html)
 - PDB >> print() for debugging
 	- Can be slow (takes a few times to find out what you actually need to print)
 	- PDB in the command line is good (or just use built in debugger in VS Code)
@@ -167,7 +167,7 @@ http://slides.bengerman.com
 	- Failure is an outcome, not a behaviour
 - ie. if Joe pulled the lever, shouldn't blame Joe for pulling the lever. But ask why he pulled the lever? What information led him to believe that pulling the lever was the right decision?
 - Anonynimity != blameless
-- TODO: Do we include action items/recommendations with our post mortems?
+- `TODO`: Do we include action items/recommendations with our post mortems?
 	- Right now the post mortems seem to get lost, but at least they're written down. Maybe have a mechanism to also review them occasionally? Or part of starting a project is to find/read post mortems of similar projects?
 - The primary goal of a postmortem is that learning is primary - action items are ancillary
 
